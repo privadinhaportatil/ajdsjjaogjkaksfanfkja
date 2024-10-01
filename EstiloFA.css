@@ -10,6 +10,8 @@ body {
     border: none
 }
 
+/*-------------------------------- Bait ----------------------------------*/
+
 #bait {
     width: 100%;
     height: 100%;
@@ -20,32 +22,139 @@ body {
     background-color: rgb(163, 31, 31);
 }
 
-.img_aviso {
+#img_aviso {
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
+}
+
+#img_aviso img {
     width: 100%;
     height: 100%;
 }
 
-.img_aviso img {
-    width: 100%;
-    height: 100%;
-}
-
-.txt_aviso {
+#txt_aviso {
     font-size: 30px;
     font-weight: 600;
     line-height: 2rem;
     color: white;
 }
 
-.txt_aviso a {
+#txt_aviso a {
     font-size: 20px;
     color: blue;
 }
 
-.txt_aviso a:hover {
+#txt_aviso a:hover {
     color: rgb(98, 161, 255)
+}
+
+/*------------------------------- Niver ----------------------------------*/
+
+.parte {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#inicio {
+    padding: 2% 0;
+    background: url(Imagens/FundoNiver.png);
+    background-size: cover;
+}
+
+#intro img {
+    width: 80%;
+    height: auto;
+}
+
+#intro h2 {
+    margin: 2% 25%;
+    padding: 2% 5%;
+    background-color: rgb(255, 200, 241);
+    border-radius: 10px;
+}
+
+#principal {
+    padding: 1.5% 0;
+    background-color: rgb(230, 225, 220);
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 1%;
+    padding: 3%;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.btn {
+    width: 95%;
+    margin: 20px 0;
+    padding: 2% 1%;
+    border: 1.5px solid rgb(240, 240, 240);
+    border-radius: 5px 10px 10px 5px;
+    color: rgb(19, 19, 19);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    background-color: rgb(240, 240, 240);
+    transition: 0.5s;
+}
+
+.btn span {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+}
+
+.setinha {
+    float: right;
+}
+
+#parabens {
+    display: none;
+}
+
+#parabens img {
+    width: 500px;
+    height: auto;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+#pqteamo {
+    display: none;
+}
+
+#pqteamo img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#fzrcomvc {
+    display: none;
+}
+
+#fzrcomvc img {
+    width: 300px;
+    height: auto;
+    margin: 5% 25%;
+    border-radius: 10px;
+}
+
+#final {
+    background: url(Imagens/FundoNiver.png);
+    background-size: cover;
 }
 
 @media screen and (max-width: 800px) {
@@ -55,7 +164,7 @@ body {
 
     }
 
-    .txt_aviso a {
+    #txt_aviso a {
         font-size: 18px;
     }
 
