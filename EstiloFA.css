@@ -60,22 +60,15 @@ body {
     text-align: center;
 }
 
-#inicio {
-    padding: 2% 0;
+.iniciofim {
+    padding: 10% 0;
     background: url(Imagens/FundoNiver.png);
     background-size: cover;
 }
 
-#intro img {
+.imagem img {
     width: 80%;
     height: auto;
-}
-
-#intro h2 {
-    margin: 2% 25%;
-    padding: 2% 5%;
-    background-color: rgb(255, 200, 241);
-    border-radius: 10px;
 }
 
 #principal {
@@ -105,7 +98,7 @@ body {
 }
 
 .btn:hover {
-    transform: scale(1.03);
+    transform: scale(1.015);
     background-color: rgb(240, 240, 240);
     transition: 0.5s;
 }
@@ -125,7 +118,7 @@ body {
 }
 
 #parabens img {
-    width: 500px;
+    width: 300px;
     height: auto;
     margin: 5%;
     border-radius: 10px;
@@ -136,7 +129,7 @@ body {
 }
 
 #pqteamo img {
-    width: 500px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
 }
@@ -146,9 +139,9 @@ body {
 }
 
 #fzrcomvc img {
-    width: 300px;
+    width: 220px;
     height: auto;
-    margin: 5% 25%;
+    margin: 5% 15%;
     border-radius: 10px;
 }
 
